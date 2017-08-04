@@ -43,7 +43,6 @@ chown -R nginx:nginx /var/session && \
 chmod 750 /var/www -R
 
 # Add Volumes
-VOLUME /var/www/config
 VOLUME /var/session
 
 EXPOSE 80
